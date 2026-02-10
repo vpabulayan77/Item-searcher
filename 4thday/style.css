@@ -1,0 +1,17 @@
+#cards {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+.card {
+    background: rgba(255, 255, 255, 0);
+    backdrop-filter: blur(2px);
+    border: 1px solid #000000;
+    min-height: 200px;
+    margin-top : 20px;
+    text-align: center;
+}
+body{
+    background-image: url('image.png');
+    background-size: cover;
+}
